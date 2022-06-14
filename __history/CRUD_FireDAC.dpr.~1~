@@ -1,0 +1,18 @@
+program CRUD_FireDAC;
+
+uses
+  Vcl.Forms,
+  Pessoas in 'Pessoas.pas' {form_PESSOAS},
+  DataBaseCons in 'DataBaseCons.pas' {datamodule_CRUD: TDataModule},
+  Cadastro in 'Cadastro.pas' {form_CADASTRO};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tform_PESSOAS, form_PESSOAS);
+  Application.CreateForm(Tdatamodule_CRUD, datamodule_CRUD);
+  Application.CreateForm(Tform_CADASTRO, form_CADASTRO);
+  Application.Run;
+end.

@@ -1,0 +1,274 @@
+object form_CADASTRO: Tform_CADASTRO
+  Left = 0
+  Top = 0
+  Caption = 'CADASTRO'
+  ClientHeight = 470
+  ClientWidth = 278
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  DesignSize = (
+    278
+    470)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 8
+    Top = 190
+    Width = 262
+    Height = 241
+    Anchors = [akLeft, akTop, akRight]
+    BevelOuter = bvLowered
+    TabOrder = 0
+    ExplicitWidth = 293
+    DesignSize = (
+      262
+      241)
+    object Label4: TLabel
+      Left = 8
+      Top = 53
+      Width = 46
+      Height = 13
+      Caption = 'Telefone:'
+    end
+    object Label5: TLabel
+      Left = 8
+      Top = 99
+      Width = 38
+      Height = 13
+      Caption = 'Twitter:'
+    end
+    object Label6: TLabel
+      Left = 8
+      Top = 145
+      Width = 53
+      Height = 13
+      Caption = 'Instagram:'
+    end
+    object Label7: TLabel
+      Left = 8
+      Top = 191
+      Width = 43
+      Height = 13
+      Caption = 'Website:'
+    end
+    object Label9: TLabel
+      Left = 8
+      Top = 7
+      Width = 32
+      Height = 13
+      Caption = 'E-mail:'
+    end
+    object edt_Telefone: TDBEdit
+      AlignWithMargins = True
+      Left = 8
+      Top = 72
+      Width = 246
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      BevelOuter = bvRaised
+      Color = 12779210
+      DataField = 'TELEFONE'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 0
+      ExplicitWidth = 193
+    end
+    object edt_Twitter: TDBEdit
+      Left = 8
+      Top = 118
+      Width = 246
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      Color = 16773330
+      DataField = 'TWITTER'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 1
+      ExplicitWidth = 193
+    end
+    object edt_Instagram: TDBEdit
+      Left = 8
+      Top = 164
+      Width = 246
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      Color = 14011135
+      DataField = 'INSTAGRAM'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 2
+      ExplicitWidth = 193
+    end
+    object edt_Website: TDBEdit
+      Left = 8
+      Top = 210
+      Width = 246
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      Color = 15400957
+      DataField = 'WEBSITE'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 3
+      ExplicitWidth = 193
+    end
+    object edt_Email: TDBEdit
+      AlignWithMargins = True
+      Left = 8
+      Top = 26
+      Width = 246
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      BevelOuter = bvRaised
+      CharCase = ecLowerCase
+      Color = 14869218
+      DataField = 'EMAIL'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 4
+    end
+  end
+  object Panel2: TPanel
+    Left = 8
+    Top = 39
+    Width = 262
+    Height = 145
+    Anchors = [akLeft, akTop, akRight]
+    BevelOuter = bvLowered
+    TabOrder = 1
+    ExplicitWidth = 293
+    DesignSize = (
+      262
+      145)
+    object Label1: TLabel
+      Left = 8
+      Top = 5
+      Width = 31
+      Height = 13
+      Caption = 'Nome:'
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 51
+      Width = 58
+      Height = 13
+      Caption = 'Sobrenome:'
+    end
+    object Label3: TLabel
+      Left = 146
+      Top = 5
+      Width = 100
+      Height = 13
+      Anchors = [akTop, akRight]
+      Caption = 'Data de Nascimento:'
+      ExplicitLeft = 176
+    end
+    object Label8: TLabel
+      Left = 8
+      Top = 97
+      Width = 23
+      Height = 13
+      Caption = 'CPF:'
+    end
+    object edt_Nome: TDBEdit
+      AlignWithMargins = True
+      Left = 8
+      Top = 24
+      Width = 132
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      CharCase = ecUpperCase
+      DataField = 'NOME'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 0
+    end
+    object edt_Sobrenome: TDBEdit
+      Left = 8
+      Top = 70
+      Width = 247
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      CharCase = ecUpperCase
+      DataField = 'SOBRENOME'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 1
+    end
+    object edt_Data: TDBEdit
+      Left = 146
+      Top = 24
+      Width = 109
+      Height = 21
+      Anchors = [akTop, akRight]
+      DataField = 'NASCIMENTO'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 2
+      ExplicitLeft = 176
+    end
+    object edt_CPF: TDBEdit
+      Left = 8
+      Top = 116
+      Width = 247
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      DataField = 'CPF'
+      DataSource = form_PESSOAS.DataSource1
+      TabOrder = 3
+      ExplicitWidth = 277
+    end
+  end
+  object btn_Insert: TButton
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Novo'
+    TabOrder = 2
+    OnClick = btn_InsertClick
+  end
+  object btn_Edit: TButton
+    Left = 89
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Editar'
+    TabOrder = 3
+    OnClick = btn_EditClick
+  end
+  object btn_Save: TButton
+    Left = 195
+    Top = 437
+    Width = 75
+    Height = 25
+    Caption = 'Salvar'
+    TabOrder = 4
+    OnClick = btn_SaveClick
+  end
+  object btn_Cancel: TButton
+    Left = 114
+    Top = 437
+    Width = 75
+    Height = 25
+    Caption = 'Cancelar'
+    TabOrder = 5
+    OnClick = btn_CancelClick
+  end
+  object DBEdit1: TDBEdit
+    Left = 195
+    Top = 12
+    Width = 75
+    Height = 21
+    DataField = 'ID'
+    DataSource = form_PESSOAS.DataSource1
+    TabOrder = 6
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 437
+    Width = 75
+    Height = 25
+    Caption = 'Deletar'
+    TabOrder = 7
+    OnClick = Button1Click
+  end
+end

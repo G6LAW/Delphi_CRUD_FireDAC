@@ -1,0 +1,38 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Datasnap.Provider, Datasnap.DBClient, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls,
+  Vcl.ExtCtrls;
+
+type
+  Tform_PESSOAS = class(TForm)
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  form_PESSOAS: Tform_PESSOAS;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit2, Unit3;
+
+procedure Tform_PESSOAS.Button1Click(Sender: TObject);
+begin
+  form_CADASTRO.show;
+
+end;
+
+end.

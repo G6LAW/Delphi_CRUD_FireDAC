@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/13 23:18:26.000.666,=C:\_Code\Delphi Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/13 23:18:43.000.486,=C:\_Code\Delphi Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/14 00:05:00.000.918,=C:\_Code\Delphi Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/14 00:29:28.000.573,C:\_Code\Delphi Projects\CRUD FireDAC\Cadastro.dfm=C:\_Code\Delphi Projects\Unit3.dfm</Transaction>
+    <Transaction>2022/06/14 00:29:28.000.573,C:\_Code\Delphi Projects\CRUD FireDAC\Cadastro.pas=C:\_Code\Delphi Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/14 00:29:35.000.477,C:\_Code\Delphi Projects\CRUD FireDAC\Pessoas.pas=C:\_Code\Delphi Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 00:29:35.000.477,C:\_Code\Delphi Projects\CRUD FireDAC\Pessoas.dfm=C:\_Code\Delphi Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/06/14 00:30:03.000.784,C:\_Code\Delphi Projects\CRUD FireDAC\DataBaseCons.pas=C:\_Code\Delphi Projects\Unit2.pas</Transaction>
+    <Transaction>2022/06/14 00:30:03.000.784,C:\_Code\Delphi Projects\CRUD FireDAC\DataBaseCons.dfm=C:\_Code\Delphi Projects\Unit2.dfm</Transaction>
+    <Transaction>2022/06/14 00:30:18.000.825,C:\_Code\Delphi Projects\CRUD FireDAC\CRUD_FireDAC.dproj=C:\_Code\Delphi Projects\Project1.dproj</Transaction>
+    <Transaction>2022/06/14 00:35:12.000.836,C:\_Code\Delphi Projects\CRUD FireDAC\Unit1.dfm=C:\_Code\Delphi Projects\CRUD FireDAC\Pessoas.dfm</Transaction>
+    <Transaction>2022/06/14 00:35:12.000.836,C:\_Code\Delphi Projects\CRUD FireDAC\Unit1.pas=C:\_Code\Delphi Projects\CRUD FireDAC\Pessoas.pas</Transaction>
+    <Transaction>2022/06/14 00:35:38.000.483,C:\_Code\Delphi Projects\CRUD FireDAC\Unit2.pas=C:\_Code\Delphi Projects\CRUD FireDAC\Cadastro.pas</Transaction>
+    <Transaction>2022/06/14 00:35:38.000.483,C:\_Code\Delphi Projects\CRUD FireDAC\Unit2.dfm=C:\_Code\Delphi Projects\CRUD FireDAC\Cadastro.dfm</Transaction>
+    <Transaction>2022/06/14 00:35:48.000.886,C:\_Code\Delphi Projects\CRUD FireDAC\Unit3.dfm=C:\_Code\Delphi Projects\CRUD FireDAC\DataBaseCons.dfm</Transaction>
+    <Transaction>2022/06/14 00:35:48.000.886,C:\_Code\Delphi Projects\CRUD FireDAC\Unit3.pas=C:\_Code\Delphi Projects\CRUD FireDAC\DataBaseCons.pas</Transaction>
+  </Transactions>
+</BorlandProject>
